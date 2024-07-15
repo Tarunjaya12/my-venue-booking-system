@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#bg{
+	background-image:linear-gradient(#4776e6,#8e54e9)!important;
+	background-size:cover;
+	height:100vh;
+	width:100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	background-color:#ffffff;
+	text-align:center;
+	box-shadow: 5px 5px 5px 5px #888888;
+	margin:20px;
+	width:50vw;
+	border-radius:8px;
+}
+
+.msg {
+	color:#34eb77;
+}

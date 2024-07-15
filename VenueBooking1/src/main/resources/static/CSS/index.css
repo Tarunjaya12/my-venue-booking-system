@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.background {
+	background-image:url("https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2021/03/suryagarh-jaisalmer_9703d0a1-e1618849433978.jpg");
+	background-size:cover;
+	height: 100vh;
+	text-align:center;
+}
+
+h1{
+	font-style:bree-Serif;
+	font-size:80px;
+}
+
+p{
+	font-style:bree-Serif;
+	font-size:40px;
+	
+}
+
+
+.home-button{
+	color: white;
+  background-color: #25b1cc;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+}

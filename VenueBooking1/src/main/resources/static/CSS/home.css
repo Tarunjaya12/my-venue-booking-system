@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#bg { 
+	background-image:linear-gradient(#00c9ff,#92fe9d);
+	background-size:cover;
+	height:100vh;
+	width:100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+    
+	
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	background-color:#ffffff;
+	text-align:center;
+	box-shadow: 5px 5px 5px 5px #888888;
+	margin:20px;
+	width:50vw;
+	border-radius:8px;
+}
+
+.admin_button{
+	color: white;
+  background-color: #34eb77;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+  margin:5px;
+}

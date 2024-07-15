@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+
+
+
+.container{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	}
+
+.card {
+	box-shadow: 5px 5px 5px 5px #888888;
+	border-radius:8px;
+	margin:20px;
+	width:50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card1 {
+	box-shadow: 5px 0px 5px 5px #888888;
+	border-radius:8px;
+	align-items: center;
+	text-align:center;
+	width:50vw;
+}
+
+.leftside {
+	background: #030303;
+	width: 25rem;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    background: linear-gradient(
+135deg
+, #753370 0%, #298096 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+.pay{
+	display:block;
+}
+
+
+

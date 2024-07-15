@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.back{
+	color: white;
+  background-color: #42f5ef;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+  margin:5px;
+}
+
+.pay{
+	color: white;
+  background-color:#04AA6D ;
+  width: 138px;
+  height: 36px;
+  border-width: 0px;
+  border-radius: 20px;
+  margin:5px;
+}
